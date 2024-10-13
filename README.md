@@ -17,5 +17,5 @@ an element of gamification, making the process of task management both enjoyable
 productive.</p>
 
 <h1 align="left">Requirement</h1>
-Please implement <b>Java 8 Library</b> and <b>Scala 2.12 Library</b> when running this code
+Please implement <b>Java 8 Library</b> and <b>Scala 2.12 Library</b> when running this program
 
