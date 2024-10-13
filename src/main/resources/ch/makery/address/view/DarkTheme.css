@@ -1,0 +1,263 @@
+.background {
+    -fx-background-color: #FCEEE4;
+}
+
+.label {
+    -fx-font-size: 15pt;
+    -fx-font-family: "Times New Roman";
+    -fx-text-fill: black;
+    -fx-opacity: 0.6;
+    -fx-font-weight: normal;
+}
+.label2{
+    fx-font-size: 30pt;
+    -fx-font-family: "Times New Roman";
+    -fx-text-fill: black;
+    -fx-opacity: 0.6;
+    -fx-font-weight: bold;
+}
+.label-bright {
+    -fx-font-size: 15pt;
+    -fx-font-family: "Times New Roman";
+    -fx-text-fill: black;
+    -fx-opacity: 1;
+    -fx-font-weight: bold; /* This will make the text bold */
+}
+
+.label-header {
+    -fx-font-size: 32pt;
+    -fx-font-family: "Times New Roman";
+    -fx-text-fill: black;
+    -fx-opacity: 1;
+    -fx-font-weight: bold; /* This will make the text bold */
+}
+
+.login {
+    -fx-background-color: EB77A6;
+    -fx-font-size: 30pt;
+    -fx-font-family: "Times New Roman";
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+
+}
+.table-view {
+    -fx-base: blue;
+    -fx-control-inner-background:  #A3CBF1;
+    -fx-background-color:  #A3CBF1;
+    -fx-table-cell-border-color: transparent;
+    -fx-table-header-border-color: transparent;
+    -fx-padding: 5;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header, .table-view .filler {
+    -fx-size: 20;
+    -fx-border-width: 0 0 1 0;
+    -fx-background-color: transparent;
+    -fx-border-color:
+            #A3CBF1
+            #A3CBF1
+            derive(-fx-base, 80%)
+            #A3CBF1;
+    -fx-border-insets: 0 10 1 0;
+}
+
+.table-view .column-header .label {
+    -fx-font-size: 20pt;
+    -fx-font-family: "Times New Roman";
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-alignment: center-left;
+    -fx-opacity: 1;
+}
+
+.table-view:focused .table-row-cell:filled:focused:selected {
+    -fx-background-color: -fx-focus-color;
+}
+
+.split-pane:horizontal > .split-pane-divider {
+    -fx-border-color: transparent #1d1d1d transparent #1d1d1d;
+    -fx-background-color: transparent, derive(#1d1d1d,20%);
+}
+
+.split-pane {
+    -fx-padding: 1 0 0 0;
+}
+
+.menu-bar {
+    -fx-background-color: derive(#1d1d1d,20%);
+}
+
+.context-menu {
+    -fx-background-color: derive(#1d1d1d,50%);
+}
+
+.menu-bar .label {
+    -fx-font-size: 14pt;
+    -fx-font-family: "Segoe UI Light";
+    -fx-text-fill: white;
+    -fx-opacity: 0.9;
+}
+
+.menu .left-container {
+    -fx-background-color: #FCEEE4;
+}
+
+.text-field {
+    -fx-font-size: 12pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-background-color: #728CB0;
+}
+
+/*
+ * Metro style Push Button
+ * Author: Pedro Duque Vieira
+ * http://pixelduke.wordpress.com/2012/10/23/jmetro-windows-8-controls-on-java/
+ */
+.button {
+    -fx-padding: 3 22 3 22;
+    -fx-border-color: black;
+    -fx-border-width: 4;
+    -fx-background-radius: 0;
+    -fx-background-color: #FFAAA6;
+    -fx-font-family: "Times New Roman", Helvetica, Arial, sans-serif;
+    -fx-font-size: 18pt;
+    -fx-text-fill: black;
+    -fx-border-insets: 1 1 1 1, 0;
+    -fx-pref-width: 160;
+
+}
+
+.button5 {
+    -fx-padding: 3 22 3 22;
+    -fx-border-color: black;
+    -fx-border-width: 4;
+    -fx-background-radius: 0;
+    -fx-background-color:  #A3CBF1;
+    -fx-font-family: "Times New Roman", Helvetica, Arial, sans-serif;
+    -fx-font-size: 14pt;
+    -fx-text-fill: black;
+    -fx-border-insets: 1 1 1 1, 0;
+    -fx-pref-width: 160;
+
+}
+
+
+.button2{
+    -fx-border-color: black;
+    -fx-border-width: 4;
+    -fx-background-radius: 0;
+    -fx-background-color: pink;
+    -fx-font-family: "Times New Roman", Helvetica, Arial, sans-serif;
+    -fx-font-size: 15pt;
+    -fx-text-fill: black;
+    -fx-pref-width: 180px;  /* Set your desired width */
+    -fx-pref-height: 50px;  /* Set your desired height */
+
+}
+
+.button3{
+    -fx-border-color: black;
+    -fx-border-width: 4;
+    -fx-background-radius: 0;
+    -fx-background-color: pink;
+    -fx-font-family: "Times New Roman", Helvetica, Arial, sans-serif;
+    -fx-font-size: 10pt;
+    -fx-text-fill: black;
+    -fx-pref-width: 1px;
+    -fx-pref-height: 50px;
+
+}
+
+.button4{
+    -fx-border-color: black;
+    -fx-border-width: 5;
+    -fx-background-radius: 0;
+    -fx-background-color: #E6ADD8;
+    -fx-font-family: "Times New Roman", Helvetica, Arial, sans-serif;
+    -fx-font-size: 18pt;
+    -fx-text-fill: black;
+    -fx-pref-width: 200px;
+    -fx-pref-height: 60px;
+}
+
+.button:hover {
+    -fx-background-color: #3a3a3a;
+}
+
+.button:pressed, .button:default:hover:pressed {
+    -fx-background-color: white;
+    -fx-text-fill: #1d1d1d;
+}
+
+.button:focused {
+    -fx-border-color: black, black;
+    -fx-border-width: 4, 4;
+    -fx-border-style: solid, segments(1, 1);
+    -fx-border-radius: 0, 0;
+    -fx-border-insets: 1 1 1 1, 0;
+}
+
+.button:disabled, .button:default:disabled {
+    -fx-opacity: 0.4;
+    -fx-background-color: #1d1d1d;
+    -fx-text-fill: white;
+}
+
+.button:default {
+    -fx-background-color: #FFAAA6;
+    -fx-text-fill: black;
+}
+
+
+#regMesg{
+    -fx-text-fill: red;
+    -fx-font-weight: bold;
+}
+
+#miniGame{
+    -fx-text-fill: #2B477F;
+    -fx-font-weight: bold;
+    -fx-font-size: 35px;
+}
+
+#point{
+    -fx-text-fill: red;
+    -fx-font-weight: bold;
+    -fx-font-size: 35px;
+}
+
+#getStart{
+    -fx-pref-width: 200;
+    -fx-border-width: 10;
+}
+
+.button:default:hover {
+    -fx-background-color: derive(-fx-focus-color,30%);
+}
+
+.dialog-pane {
+    -fx-background-color: white;
+}
+
+.dialog-pane .label {
+    -fx-text-fill: #FCEEE4;
+}
+
+.dialog-pane:header .header-panel {
+    -fx-background-color: white;
+}
+
+.dialog-pane:header .header-panel .label {
+    -fx-font-style: italic;
+    -fx-font-size: 2em;
+    -fx-text-fill: black;
+}
+
+.label2{
+    -fx-font-size: 30px;
+    -fx-text-fill: #2B477F;
+}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<AnchorPane prefHeight="539.0" prefWidth="1268.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.makery.address.view.MinigameController">
+   <children>
+      <GridPane layoutX="-6.0" prefHeight="400.0" prefWidth="600.0" styleClass="background" stylesheets="@DarkTheme.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="-6.0" AnchorPane.rightAnchor="6.0" AnchorPane.topAnchor="0.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="540.0" minWidth="10.0" prefWidth="403.3333435058594" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="784.3333282470703" minWidth="10.0" prefWidth="447.6666564941406" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="770.3333740234375" minWidth="10.0" prefWidth="416.66668701171875" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="127.0" minHeight="10.0" prefHeight="87.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="262.0" minHeight="10.0" prefHeight="210.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="170.0" minHeight="10.0" prefHeight="102.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label prefHeight="34.0" prefWidth="280.0" styleClass="label2" text="Point Accumulated:" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.valignment="CENTER">
+               <GridPane.margin>
+                  <Insets right="20.0" />
+               </GridPane.margin></Label>
+            <Label fx:id="point" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.valignment="CENTER">
+               <GridPane.margin>
+                  <Insets right="80.0" />
+               </GridPane.margin>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets></Label>
+            <Button mnemonicParsing="false" onAction="#handlePetme" styleClass="button4" text="PET ME!" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+            <Button mnemonicParsing="false" onAction="#handleFeedme" styleClass="button4" text="FEED ME!" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+            <Button mnemonicParsing="false" onAction="#handleLoveme" styleClass="button4" text="LOVE ME!" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+            <ImageView fitHeight="234.0" fitWidth="272.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <image>
+                   <Image url="@/image/welcomeimage.gif" />
+               </image>
+               <GridPane.margin>
+                  <Insets left="100.0" right="20.0" />
+               </GridPane.margin>
+            </ImageView>
+            <Label fx:id="miniGame" alignment="CENTER" contentDisplay="CENTER" prefHeight="82.0" prefWidth="356.0" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+            <Button mnemonicParsing="false" onAction="#handleTodolist" styleClass="button2" text="To Do List" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+            <ImageView fx:id="image" fitHeight="239.0" fitWidth="389.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>
