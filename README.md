@@ -16,6 +16,6 @@ where points earned through task completion can be used to interact with a virtu
 an element of gamification, making the process of task management both enjoyable and 
 productive.</p>
 
-<h1 align="left">Requirement</h1>
-Please implement <b>Java 8 Library</b> and <b>Scala 2.12 Library</b> when running this program
+<h1 align="left">Technologies Used</h1>
+
 
